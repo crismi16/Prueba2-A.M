@@ -4,7 +4,7 @@ import { TitleComponent } from '../components/TitleComponent';
 import { BodyComponent } from '../components/BodyComponent';
 import { InputComponent } from '../components/InputComponent';
 import { ButtonComponent } from '../components/ButtonComponent';
-import { PRIMARY_COLOR, SECONDARY_COLOR } from '../commons/constantsColor';
+import { PRIMARY_COLOR, TEXT_COLOR } from '../commons/constantsColor';
 
 interface UserForm{
   number1: string;
@@ -62,8 +62,9 @@ export const Screen4 = () => {
 
 const styles = StyleSheet.create({
   text:{
-    color:SECONDARY_COLOR,
+    color:TEXT_COLOR,
     backgroundColor:PRIMARY_COLOR,
+    fontWeight: 'bold',
     marginTop:80,
     padding:20,
     borderRadius:10,

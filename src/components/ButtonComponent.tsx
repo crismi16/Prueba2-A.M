@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity} from 'react-native';
-import {PRIMARY_COLOR, SECONDARY_COLOR} from '../commons/constantsColor';
+import {PRIMARY_COLOR, TEXT_COLOR} from '../commons/constantsColor';
 
 interface ButtonProps {
   title: string;
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     marginTop: 80,
   },
   buttonText: {
-    color: SECONDARY_COLOR,
+    color: TEXT_COLOR,
     fontSize: 16,
     fontWeight: 'bold',
   },
