@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, TextInput, View } from 'react-native'
-import { PRIMARY_COLOR } from '../commons/constantsColor';
+import { PRIMARY_COLOR, SECONDARY_COLOR } from '../commons/constantsColor';
 
 interface InputProps{
     placeholder: string;
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
         marginTop:80,
       },
     inputText:{
-      color:'black',
+      color:SECONDARY_COLOR,
       backgroundColor:PRIMARY_COLOR,
       paddingHorizontal:20,
       borderRadius:10,
